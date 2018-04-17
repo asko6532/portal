@@ -1,0 +1,17 @@
+header,
+nav,
+main,
+section,
+footer   {
+	min-height: 100px;
+	font-family: 'Questrial', sans-serif;
+}
+
+body {
+	background: var(--page-bg);
+}
+
+main {
+	background-color: black;
+	grid-area: content;
+}

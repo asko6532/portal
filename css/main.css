@@ -389,6 +389,12 @@ template {
 [hidden] {
   display: none; }
 
+:root {
+  --page-bg: white;
+  --header-bg: #FFCC66;
+  --main-bg: #FFCCCC;
+  --aside-bg: #CC0033; }
+
 /*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -616,3 +622,17 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid; } }
+header,
+nav,
+main,
+section,
+footer {
+  min-height: 100px;
+  font-family: 'Questrial', sans-serif; }
+
+body {
+  background: var(--page-bg); }
+
+main {
+  background-color: black;
+  grid-area: content; }
