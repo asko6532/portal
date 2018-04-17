@@ -1,12 +1,16 @@
+body {
+	margin: 5%;
+}
+
 .site {
 	display: grid; 
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 2fr;
 	grid-template-rows: 1fr 1fr;
 	grid-gap: 2em 2em;
 
 	grid-template-areas: 
-	"nav title"
-	"content other"
-	"footer footer"
+	"content content title"
+	"content content title"
+	"content content title"
 
 }

@@ -623,16 +623,34 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 header,
-nav,
 main,
 section,
 footer {
-  min-height: 100px;
-  font-family: 'Questrial', sans-serif; }
+  min-height: 300px;
+  font-family: 'Questrial', sans-serif;
+  border-radius: 3px; }
+
+main,
+section,
+footer {
+  border: solid 2px black;
+  min-width: 300px; }
 
 body {
   background: var(--page-bg); }
 
-main {
-  background-color: black;
-  grid-area: content; }
+header {
+  grid-area: title;
+  display: flex;
+  justify-content: flex-end;
+  grid-template-rows: 3fr; }
+
+body {
+  margin: 5%; }
+
+.site {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2em 2em;
+  grid-template-areas: "content content title" "content content title" "content content title"; }
