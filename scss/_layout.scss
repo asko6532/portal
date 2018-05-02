@@ -1,12 +1,8 @@
-body {
-	margin: 5%;
-}
-
 .site {
 	display: grid; 
 	grid-template-columns: 1fr 1fr 2fr;
 	grid-template-rows: 1fr 1fr;
-	grid-gap: 2em 2em;
+	grid-gap: 1em 1em;
 
 	grid-template-areas: 
 	"content content title"
