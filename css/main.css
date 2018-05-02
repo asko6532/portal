@@ -389,12 +389,6 @@ template {
 [hidden] {
   display: none; }
 
-:root {
-  --page-bg: white;
-  --header-bg: #FFCC66;
-  --main-bg: #FFCCCC;
-  --aside-bg: #CC0033; }
-
 /*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -695,31 +689,183 @@ textarea {
 header,
 main,
 section,
-footer {
-  min-height: 300px;
+footer,
+a:link,
+h1 {
   font-family: 'Questrial', sans-serif;
   border-radius: 3px; }
 
 main,
 section,
-footer {
-  border: solid 2px black;
-  min-width: 300px; }
+footer,
+a:link {
+  border: solid 2px black; }
+
+a:link {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none;
+  border-color: black; }
+
+a:hover {
+  text-decoration: none;
+  border-color: black; }
 
 body {
-  background: var(--page-bg);
   padding: 3%;
   padding-right: 5%; }
 
 header {
   grid-area: title;
+  width: 300px;
+  height: 300px;
   display: flex;
-  justify-content: flex-end;
-  grid-template-rows: 3fr; }
+  justify-content: flex-end; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%; }
+
+.bash-me {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: 0px;
+  width: 300px;
+  height: 300px; }
+
+.love-letters {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -600px;
+  width: 300px;
+  height: 300px; }
+
+.boiler-plate {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -1200px;
+  width: 300px;
+  height: 300px; }
+
+.github {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -1800px;
+  width: 300px;
+  height: 300px; }
+
+.exquisite_corpse {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -2400px;
+  width: 300px;
+  height: 300px; }
+
+.fruit-sprites {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -3000px;
+  width: 300px;
+  height: 300px; }
+
+.sprite-animation {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -3600px;
+  width: 300px;
+  height: 300px; }
+
+.company {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -4200px;
+  width: 300px;
+  height: 300px; }
+
+.message {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -4800px;
+  width: 300px;
+  height: 300px; }
+
+.parallax {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -5400px;
+  width: 300px;
+  height: 300px; }
+
+.wordpress {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -6000px;
+  width: 300px;
+  height: 300px; }
+
+.bash-me:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -300px;
+  width: 300px;
+  height: 300px; }
+
+.love-letters:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -900px;
+  width: 300px;
+  height: 300px; }
+
+.boiler-plate:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -1500px;
+  width: 300px;
+  height: 300px; }
+
+.github:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -2100px;
+  width: 300px;
+  height: 300px; }
+
+.exquisite_corpse:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -2700px;
+  width: 300px;
+  height: 300px; }
+
+.fruit-sprites:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -3300px;
+  width: 300px;
+  height: 300px; }
+
+.sprite-animation:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -3900px;
+  width: 300px;
+  height: 300px; }
+
+.company:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -4500px;
+  width: 300px;
+  height: 300px; }
+
+.message:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -5100px;
+  width: 300px;
+  height: 300px; }
+
+.parallax:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -5700px;
+  width: 300px;
+  height: 300px; }
+
+.wordpress:hover {
+  background: url(../img/icon-s832d06e69a.png) left center;
+  background-position: -6300px;
+  width: 300px;
+  height: 300px; }
 
 .site {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 1em 1em;
-  grid-template-areas: "content content title" "content content title" "content content title"; }
+  width: 145%;
+  grid-template-areas: "title content content content" "content content content content"; }

@@ -1,12 +1,13 @@
 .site {
 	display: grid; 
-	grid-template-columns: 1fr 1fr 2fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	grid-gap: 1em 1em;
+	width:145%;
 
 	grid-template-areas: 
-	"content content title"
-	"content content title"
-	"content content title"
+	"title content content content"
+	"content content content content"
+
 
 }
